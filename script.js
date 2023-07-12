@@ -1,9 +1,9 @@
 let Navbar = document.querySelector('.navbar');
-let Bxmenu = document.querySelector('.bx-menu');
+let BxMenu = document.querySelector('.bx-menu');
 
-Bxmenu.onclick = () =>{
+BxMenu.onclick = () =>{
     Navbar.classList.toggle('active')
-}
+};
 
 var swiper = new Swiper(".home-slid", {
     slidesPerView:1,
@@ -13,7 +13,7 @@ var swiper = new Swiper(".home-slid", {
       prevEl: ".swiper-button-prev",
     },
     pagination:{
-      el:"swiper-pagination",
+      el:".swiper-pagination",
       clickable:true,
-    }
+    },
 });

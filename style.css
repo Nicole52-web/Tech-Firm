@@ -73,10 +73,10 @@ header .navbar a{
     padding: 0.4rem ;
 }
 header .navbar a:hover,
-header .fa-bars:hover{
+header .bx-menu:hover{
     color: var(--sc-color);
 }
-header .fa-bars{
+header .bx-menu{
     font-size: 2.8rem;
     color: var(--min-color);
     cursor: pointer;

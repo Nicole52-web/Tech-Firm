@@ -276,4 +276,19 @@ header .bx-menu{
    .about .box .image img{
        width: 90%;
    }
+   .services .row{
+       grid-template-columns:repeat(auto-fit,minmax(80%,1fr));
+   }
+   .blog .row{
+       grid-template-columns: repeat(auto-fit,minmax(80%,1fr));
+   }
+   .contact .row{
+       flex-flow: column;
+   }
+   .contact .row iframe{
+       width:100% ;
+   }
+   .footer{
+       grid-template-columns: repeat(auto-fit,minmax(40%,1fr));
+   }
 }

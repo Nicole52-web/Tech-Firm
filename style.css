@@ -110,6 +110,15 @@ header .bx-menu{
     font-size: 2.5rem;
     margin: 1rem 0;
 }
+.slider-img{
+    display: block;
+    height: auto; 
+    width: auto; 
+    min-height: 800px;
+    max-height: 800px;
+    margin: 0 auto;
+}
+
 .about{
     background: #eee;
 }
